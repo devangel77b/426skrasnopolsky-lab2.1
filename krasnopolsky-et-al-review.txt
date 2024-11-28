@@ -1,0 +1,43 @@
+This is a review of the ms "Newton's Second Law" submitted by Krasnopolsky et
+al. The ms investigates the relationship between force, mass, and acceleration
+by analyzing the motion of a cart while it is being pulled by a (falling)
+mass. I recommend MAJOR REVISION NEEDED; RESUBMIT.
+
+Title: The title (Newton's second law) gives very little insight into what
+aspect of the second law is to be tested or how; and there is no abstract.
+
+Introduction: The introduction does not set up a testable hypothesis. The
+methods to be used are only vaguely mentioned; for example, a cart being "pulled
+by a mass" explains little about how the mass will actually pull anything.
+
+Methods and materials: The materials are given as a bullet list; this is
+unacceptable. Some items are trivial like string, while others, no supplier
+is listed (for cart or track) so I am not sure how I would replicate their
+methods. The setup photos are difficult to read and do not show key aspects
+clearly; a diagram or drawing would work better here.
+
+The experimental procedure is described in prose but lacks certain details.
+For example, the cart was allowed to move over 45 cm, was it freely
+accelerating? The time to move 45cm was recorded. The paper claims to calculate
+the tension force but does not explain how.
+
+No details of experimental design are given and it is left to the reader
+to figure out. It seems like the authors use a 500g cart and vary a hanging
+mass between 200g and 1kg; thus both the F and the total system mass
+are changing in their test. They should explicitly explain this design of
+experiment; normally it is cleaner to change only one thing at a time.
+
+Results: The MS provides a table of times for various hanging masses, 200, 500 and 1000 g. The time for the cart (m=500 g) is given in seconds. The authors then
+compute the force from the hanging mass as mg; but curiously ignore the hanging
+mass in their computation of "the theoretical force" which is never defined.
+
+Discussion: The presentation of the results makes it impossible to verify the
+authors claim that they have verified Newton's second law, or that their values are lower than theoretical values.
+
+It appears the authors which to compare:
+F = m_hanging g
+versus
+(m_cart+m_hanging) a_measured
+It seems some sort of linear graph might work, but with only 3 values of m_hanging it will be difficult to draw conclusions for how well the data fit F=ma. 
+
+Acknowledgements are given as a bulleted list when a sentence or two would suffice. 

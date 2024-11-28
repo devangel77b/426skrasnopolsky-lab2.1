@@ -1,0 +1,77 @@
+﻿Introduction
+
+
+Newton’s second law of motion states that acceleration of an object is directly proportional to the net force acting on that object and is inversely proportional to its mass:
+𝐹=𝑚𝑎
+
+
+Where F is the net force, m is the mass, and a is the acceleration. In this experiment, we investigate the relationship between force, mass, and acceleration by analyzing the motion of a cart while it is being pulled over a pulley by a hanging mass. By varying the mass of the hanging mass, we examine how the change in force impacts the cart’s acceleration. We hypothesize that if the mass of the hanging weight is increased, then the acceleration of the cart will increase proportionally, in accordance with Newton's second law of motion, which states that acceleration is directly proportional to the net force applied and inversely proportional to the mass of the object.
+
+
+
+
+
+
+Methods and Materials
+
+
+The experiment used a 500 gram PASCO collision cart and a 1.2 meter long PASCO aluminum dynamics track. We used a 200 gram weight, a 500 gram weight, a 1000 gram weight, a 1200 gram weight, and a 1500 gram weight as our hanging weights. In addition, we also used a PASCO “super 
+pulley with  mounting rod” as a pulley and a string to connect the weight to the cart. Our procedure started with setting up the track with the cart on top and the pulley hanging off the side as shown in FIG. 1 and FIG. 2.
+
+
+  
+
+FIG. 1 Track used in experiment
+  
+FIG. 2 Pulley where string is pulled, on the left is the cart, on the right, masses are hung
+  
+
+FIG. 3 Free-Body Diagram of the system in motion utilizing an ideal pulley
+
+
+We attached the 200 gram weight to the cart and pulled the cart back 45 centimeters from the pulley. The cart was then released and was allowed to freely accelerate until it reached the end of the track. In total, we took 3 trials for each of the 5 weights (200g, 500g, 1000g, 1200g. 1500g) for a total of 15 trials. During the trials, we measured the amount of time it took for the cart to travel 45 centimeters and recorded the data. Using the data, we calculated the tension force exerted on the cart using the formula F=ma. To calculate the acceleration, we used the equation a=2(d/t2) to find the acceleration.
+
+
+
+
+FIG. 4 Graph that shows the mass of the weight (x) and time it took for the cart to reach the end of the track (y)  
+
+
+Results
+
+
+By taking the average times for each mass, we perform the equation d=½(at2), which can be rearranged into, a=2(d/t2) to calculate the acceleration of the cart.
+
+
+
+
+
+
+
+
+FTheoretical = 0.5kg X 9.8 m/s2 = 4.9N
+F200g = 0.5kg X 2.836 m/s2 = 1.418N
+F500g = 0.5kg X 4.253 m/s2 = 2.127N
+F1000g = 0.5kg X 6.819 m/s2 = 3.409N
+F1200g= 0.5kg X 9.169m/s2 = 4.585
+F1500g= 0.5kg X 10 m/s2 = 5 N
+
+
+Discussions
+
+
+In this experiment, we investigated Newton’s second law, F=ma, by examining how varying weights influenced the acceleration of a cart. Our data demonstrates a strong proportional relationship between force and acceleration, with calculated values aligning closely with theoretical predictions.
+The slight discrepancies between theoretical and experimental force values can be attributed to friction on the track, which likely reduced the net force acting on the cart. Additionally, timing inaccuracies over short distances may have introduced minor errors in measuring the acceleration. Pulley inefficiencies, such as resistance or string tension losses, could also have contributed to the observed deviations.
+These findings validate Newton’s second law while highlighting areas for improvement in the experimental setup. Implementing a frictionless track, using a more precise timing mechanism, and optimizing the pulley system could help achieve results that more closely match theoretical values.
+
+
+Acknowledgements and References
+
+
+Sharone Krasnopolsky set up the track, measured the time it took for the cart to travel 45 cm, and wrote the abstract, introduction, methods and materials, and acknowledgements. Timur Neyir also helped set up the track, recorded the results, did all calculations, and wrote results and discussions. Brady Gorelczenko helped prepare experiment materials and helped with pre-trial measurements. Thank you to Dr. Evangelista for providing us with materials for the experiment and helping with setting them up. 
+        
+[1] P. Tipler, G. Mosca, Physics for Scientists and Engineers, Extended (W.H. Freeman and Company, United States, 2004)
+
+
+Free Body Diagram of the experimental setup found here: 
+https://pressbooks.online.ucf.edu/phy2048tjb/chapter/6-1-solving-problems-with-newtons-laws/

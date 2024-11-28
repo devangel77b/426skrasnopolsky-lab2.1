@@ -1,0 +1,17 @@
+This is a review of the resubmitted manuscript "Testing Newton's second law with card and mass" by Krasnopolsky et al. I recommend minor revisions.
+
+The title and abstract could be improved by adding something abotu what the team found when they tested Newton's second law. Was it supported? Strongly so?
+
+Introduction: When citing F=ma it would be helpful to provide a citation to a book or text.
+
+The authors had the clever idea to use a pulley system so that they could decouple the system acceleration from the portion of mass that is hanging and subject to external force. It would be nice if they could mentions that somewhere in the introduction.
+
+Methods and materials: When providing the source of key equipment, it is typical to explain things like this: "cart (PASCO Scientific; Roseville, CA)." The cart and track are also used for momentum experiments but as momentum is not discussed here it might be better to leave out mention of collisions and momentum in the titles of the gear used.
+
+The methods provide a formula that is used to compute acceleration for the time it takes a mass to move some distance d. What is the source of this formula? 
+
+Results: Results are given as a table with no graph. It might be more compact to report results for each hanging mass as mean +/- 1 s.d. and give n=3. It would be even better to give a graph as is typical in this sort of study. Rather than compute the accelerations for the average time, it would be better to compute all the accelerations and then give the acceleration as mean +/- 1 s.d.
+
+A "theoretical" force is given but this is never explained or justified; the formula for the theoretical force is not given. In all cases, the authors inexplicably calculate force based on a mass of 0.5 kg. This makes no sense and needs to be corrected.
+
+Discussion: The authors see "slight discrepancies" but the differences are like 1.4 N versus 4.9 N. It is so off it is hard to see what happened; and does NOT validate Newton's 2nd law. Timing inaccuracy and pully friction do not explain this difference, so what is going on? 
