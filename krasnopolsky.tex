@@ -1,6 +1,6 @@
 ﻿\documentclass[reprint,amsmath,amssymb.aps]{revtex4-2}
 
-
+\usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{dcolumn}
@@ -8,6 +8,8 @@
 \usepackage{siunitx}
 \sisetup{separate-uncertainty=true}
 \usepackage{cleveref}
+\usepackage{svg}
+
 
 
 
@@ -59,13 +61,19 @@ pulley with mounting rod'' as a pulley and a string to connect the weight to the
 \end{figure}
   
 \begin{figure}
-\caption{Free-Body Diagram of the system in motion utilizing an ideal pulley}
+\begin{center}
+\includegraphics[width=\columnwidth]{CNX_UPhysics_06_01_Table.jpg}
+\end{center}
+\caption{Free-Body Diagram of the system in motion utilizing an ideal pulley, from \url{https://pressbooks.online.ucf.edu/phy2048tjb/chapter/6-1-solving-problems-with-newtons-laws/}}
 \label{fig:3}
 \end{figure}
 
 We attached the \qty{0.200}{\kilo\gram} weight to the cart and pulled the cart back \qty{0.45}{\meter} from the pulley. The cart was then released and was allowed to freely accelerate until it reached the end of the track. In total, we took three trials for each of the five weights (\qtylist{0.200;0.500;1.000;1.200;1.500}{\kilo\gram}) for a total of 15 trials. During the trials, we measured the amount of time it took for the cart to travel \qty{0.45}{\meter} and recorded the data. Using the data, we calculated the tension force exerted on the cart using the formula $F=ma$. To calculate the acceleration, we used the equation $a=2d/t^2$ to find the acceleration.
 
 \begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig4.svg}
+\end{center}
 \caption{Graph that shows the mass of the weight ($x$) and time it took for the cart to reach the end of the track ($y$)}
 \label{fig:4}
 \end{figure}
@@ -76,6 +84,7 @@ We attached the \qty{0.200}{\kilo\gram} weight to the cart and pulled the cart b
 
 \section{Results}
 By taking the average times for each mass, we perform the equation $d = \frac{1}{2} a t^2$, which can be rearranged into, $a=2d/t^2$ to calculate the acceleration of the cart.
+\input{table1.tex}
 
 %FTheoretical = 0.5kg X 9.8 m/s2 = 4.9N
 %F200g = 0.5kg X 2.836 m/s2 = 1.418N
@@ -100,7 +109,9 @@ These findings validate Newton’s second law while highlighting areas for impro
 
 
 \section{Acknowledgements}
-Sharone Krasnopolsky set up the track, measured the time it took for the cart to travel \qty{0.45}{\meter}, and wrote the abstract, introduction, methods and materials, and acknowledgements. Timur Neyir also helped set up the track, recorded the results, did all calculations, and wrote results and discussions. Brady Gorelczenko helped prepare experiment materials and helped with pre-trial measurements. 
+We thank several anonymous reviewers for their helpful comments on our manuscript. 
+
+SK set up the track, measured the time it took for the cart to travel \qty{0.45}{\meter}, and wrote the abstract, introduction, methods and materials, and acknowledgements. TN also helped set up the track, recorded the results, did all calculations, and wrote results and discussions. BG helped prepare experiment materials and helped with pre-trial measurements. 
 
 
 
@@ -110,6 +121,6 @@ Sharone Krasnopolsky set up the track, measured the time it took for the cart to
 %Free Body Diagram of the experimental setup found here: 
 %https://pressbooks.online.ucf.edu/phy2048tjb/chapter/6-1-solving-problems-with-newtons-laws/
 
-\bibliographystyle{abbrvnat}
+%\bibliographystyle{abbrvnat}
 \bibliography{lab.bib}
 \end{document}
