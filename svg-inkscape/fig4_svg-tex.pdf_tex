@@ -62,7 +62,7 @@
     \put(0.27435184,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
     \put(0.51717592,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
     \put(0.76000002,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
-    \put(0.54754628,0.02736113){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_2$, \unit{\kilo\gram}\end{tabular}}}}%
-    \put(0.04490741,0.37805552){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$, \unit{\meter\per\second\squared}\end{tabular}}}}}%
+    \put(0.54754628,0.02736113){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_2$ (\unit{\kilo\gram})\end{tabular}}}}%
+    \put(0.04490741,0.37805556){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ (\unit{\meter\per\second\squared})\end{tabular}}}}}%
   \end{picture}%
 \endgroup%

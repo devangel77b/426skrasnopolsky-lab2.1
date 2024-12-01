@@ -79,7 +79,7 @@
 <text x='59.26' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.4</text>
 <text x='111.71' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.8</text>
 <text x='164.16' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>1.2</text>
-<text x='118.27' y='138.09' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='92.27px' lengthAdjust='spacingAndGlyphs'>$m_2$, \unit{\kilo\gram}</text>
-<text transform='translate(9.70,62.34) rotate(-90)' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='146.90px' lengthAdjust='spacingAndGlyphs'>$a$, \unit{\meter\per\second\squared}</text>
+<text x='118.27' y='138.09' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='94.92px' lengthAdjust='spacingAndGlyphs'>$m_2$ (\unit{\kilo\gram})</text>
+<text transform='translate(9.70,62.34) rotate(-90)' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='149.55px' lengthAdjust='spacingAndGlyphs'>$a$ (\unit{\meter\per\second\squared})</text>
 </g>
 </svg>
