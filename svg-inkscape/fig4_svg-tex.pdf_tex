@@ -54,15 +54,15 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{fig4_svg-tex.pdf}}%
-    \put(0.09689815,0.20296295){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}4\end{tabular}}}}%
-    \put(0.09689815,0.32537036){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}6\end{tabular}}}}%
-    \put(0.09689815,0.44777778){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}8\end{tabular}}}}%
-    \put(0.09689815,0.57013889){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0.07995371,0.12189816){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0.07995371,0.25587961){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3\end{tabular}}}}%
+    \put(0.07995371,0.38981482){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}6\end{tabular}}}}%
+    \put(0.07995371,0.52379629){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}9\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{fig4_svg-tex.pdf}}%
-    \put(0.27435184,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
-    \put(0.51717592,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
-    \put(0.76000002,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
-    \put(0.54754628,0.02736113){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_2$ (\unit{\kilo\gram})\end{tabular}}}}%
+    \put(0.26055555,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0.50810185,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0.75564815,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
+    \put(0.53907409,0.02736113){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$m_2$ (\unit{\kilo\gram})\end{tabular}}}}%
     \put(0.04490741,0.37805556){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ (\unit{\meter\per\second\squared})\end{tabular}}}}}%
   \end{picture}%
 \endgroup%

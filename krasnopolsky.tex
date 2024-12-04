@@ -27,10 +27,7 @@
 \date{\today}
 
 \begin{abstract}
-Newton’s second law states that force equals mass times acceleration ($F=ma$)
-In our experiment, we used varying masses attached to a cart and pulley system in order to
-examine the relationship between mass, acceleration, and force. We found that the relationship
-between force and acceleration is proportional, supporting Newton’s second law.
+Newton’s second law states that force equals mass times acceleration ($F=ma$). In our experiment, we used varying masses attached to a cart and pulley system in order to examine the relationship between mass, acceleration, and force. We found that the relationship between force and acceleration is proportional, supporting Newton’s second law.
 \end{abstract}
 
 \keywords{keywords here}
@@ -38,7 +35,7 @@ between force and acceleration is proportional, supporting Newton’s second law
 \maketitle
 
 \section{Introduction}
-Newton’s second law of motion states that acceleration of an object is directly proportional to the net force acting on that object and is inversely proportional to its mass:
+Newton’s second law of motion states that acceleration of an object is directly proportional to the net force acting on that object and is inversely proportional to its mass \cite{tipler}:
 \begin{equation}
 F = ma,
 \end{equation}
@@ -50,15 +47,21 @@ where $F$ is the net force, $m$ is the mass, and $a$ is the acceleration. In thi
 
 
 \section{Methods and Materials}
-The experiment used a \qty{0.500}{\kilo\gram} PASCO collision cart and a \qty{1.2}{\meter} long PASCO aluminum dynamics track. We used a \qty{0.200}{\kilo\gram} weight, a \qty{0.500}{\kilo\gram} weight, a \qty{1.000}{\kilo\gram} weight, a \qty{1.200}{\kilo\gram} weight, and a \qty{1.500}{\kilo\gram} weight as our hanging weights. In addition, we also used a PASCO ``super 
-pulley with mounting rod'' as a pulley and a string to connect the weight to the cart. Our procedure started with setting up the track with the cart on top and the pulley hanging off the side as shown in \cref{fig:1} and \cref{fig:2}.
+The experiment used a \qty{0.500}{\kilo\gram} PASCO collision cart and a \qty{1.2}{\meter} long PASCO aluminum dynamics track as shown in \cref{fig:1}. We used a \qty{0.200}{\kilo\gram} weight, a \qty{0.500}{\kilo\gram} weight, a \qty{1.000}{\kilo\gram} weight, a \qty{1.200}{\kilo\gram} weight, and a \qty{1.500}{\kilo\gram} weight as our hanging weights. In addition, we also used a PASCO ``super 
+pulley with mounting rod'' (\cref{fig:2}) as a pulley and a string to connect the weight to the cart. Our procedure started with setting up the track with the cart on top and the pulley hanging off the side as shown in \cref{fig:1} and \cref{fig:2}.
 
 \begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig1.svg}
+\end{center}
 \caption{Track used in experiment}
 \label{fig:1}
 \end{figure}
 
 \begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig2.svg}
+\end{center}
 \caption{Pulley where string is pulled, on the left is the cart, on the right, masses are hung}
 \label{fig:2}
 \end{figure}
@@ -73,21 +76,30 @@ pulley with mounting rod'' as a pulley and a string to connect the weight to the
 
 We attached the \qty{0.200}{\kilo\gram} weight to the cart and pulled the cart back \qty{0.45}{\meter} from the pulley. The cart was then released and was allowed to freely accelerate until it reached the end of the track. In total, we took three trials for each of the five weights (\qtylist{0.200;0.500;1.000;1.200;1.500}{\kilo\gram}) for a total of 15 trials. During the trials, we measured the amount of time it took for the cart to travel \qty{0.45}{\meter} and recorded the data. Using the data, we calculated the tension force exerted on the cart using the formula $F=ma$. To calculate the acceleration, we used the equation $a=2d/t^2$ to find the acceleration.
 
-\begin{figure}
-\begin{center}
-\includesvg[width=\columnwidth]{fig4.svg}
-\end{center}
-\caption{Graph that shows the mass of the weight ($x$) and time it took for the cart to reach the end of the track ($y$)}
-\label{fig:4}
-\end{figure}
-
 
 
 
 
 \section{Results}
-By taking the average times for each mass, we perform the equation $d = \frac{1}{2} a t^2$, which can be rearranged into, $a=2d/t^2$ to calculate the acceleration of the cart.
+By taking the average times for each mass, we perform the equation $d = \frac{1}{2} a t^2$, which can be rearranged into, $a=2d/t^2$ to calculate the acceleration of the cart, as shown in \cref{tab:newtable1}. 
 \input{table1.tex}
+
+The results in \cref{tab:newtable1} are plotted in \cref{fig:3}, which shows the mass of the weight and time it took for the cart to reach the end of the track. The resulting accelerations are plotted in \cref{fig:4}. The blue lines show the predictions for the fre body diagram given in \cref{fig:3}, $a=\frac{m_2}{m_1+m_2} g$. 
+\begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig3.svg}
+\end{center}
+\caption{Graph that shows the mass of the weight ($x$) and time it took for the cart to reach the end of the track ($y$)}
+\label{fig:3}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig4.svg}
+\end{center}
+\caption{Graph that shows the mass of the weight ($x$) and acceleration ($y$)}
+\label{fig:4}
+\end{figure}
 
 %FTheoretical = 0.5kg X 9.8 m/s2 = 4.9N
 %F200g = 0.5kg X 2.836 m/s2 = 1.418N
@@ -102,9 +114,9 @@ By taking the average times for each mass, we perform the equation $d = \frac{1}
 
 
 \section{Discussion}
-In this experiment, we investigated Newton’s second law, $F=ma$, by examining how varying weights influenced the acceleration of a cart. Our data demonstrates a strong proportional relationship between force and acceleration, with calculated values aligning closely with theoretical predictions.
+In this experiment, we investigated Newton’s second law, $F=ma$, by examining how varying weights influenced the acceleration of a cart. Our data demonstrates a strong proportional relationship between force and acceleration, with calculated values aligning closely with theoretical predictions as seen in \cref{fig:3,fig:4}.
 
-The slight discrepancies between theoretical and experimental force values can be attributed to friction on the track, which likely reduced the net force acting on the cart. Additionally, timing inaccuracies over short distances may have introduced minor errors in measuring the acceleration. Pulley inefficiencies, such as resistance or string tension losses, could also have contributed to the observed deviations.
+The slight discrepancies between theoretical and experimental force values can be attributed to friction on the track, which likely reduced the net force acting on the cart. Additionally, timing inaccuracies over short distances may have introduced minor errors in measuring the acceleration. Pulley inefficiencies, such as resistance or string tension losses, could also have contributed to the observed deviations. These could be especially pronounced at the highest levels of $m_2$, where forces are high and times are short. 
 
 These findings validate Newton’s second law while highlighting areas for improvement in the experimental setup. Implementing a frictionless track, using a more precise timing mechanism, and optimizing the pulley system could help achieve results that more closely match theoretical values.
 
