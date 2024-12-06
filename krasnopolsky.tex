@@ -1,4 +1,4 @@
-﻿\documentclass[reprint,amsmath,amssymb,aps]{revtex4-2}
+﻿\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2}
 
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb,amsfonts}
@@ -12,12 +12,30 @@
 \crefname{figure}{Fig.}{Figs.}
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
+% set PDF metadata
+\hypersetup{%
+pdftitle={Testing Newton's second law with cart and mass},
+pdfauthor={Sharone Krasnopolsky, Timur Neyir, and Brady Gorelczenko},
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{1}, 23--25 (2024)}
+\fancyhead[LO]{Krasnopolsky et al.}
+\fancyhead[LE]{Testing Newton's second law}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{1}, 23--25 (2024)}
+\fancyfoot[C]{\thepage}
+}
 
 
 
 
 
 \begin{document}
+\setcounter{page}{23}
 \title{Testing Newton's second law with cart and mass}
 \author{Sharone Krasnopolsky}
 \email{Contact author: 426skrasnopolsky@frhsd.com}
@@ -32,7 +50,7 @@ Newton’s second law states that force equals mass times acceleration ($F=ma$).
 
 \keywords{keywords here}
 
-\maketitle
+\maketitle\thispagestyle{mytitlepage}
 
 \section{Introduction}
 Newton’s second law of motion states that acceleration of an object is directly proportional to the net force acting on that object and is inversely proportional to its mass \cite{tipler}:
